@@ -1,0 +1,1 @@
+Du ska skapa en hemsida för "Musikfestivalen" som arrangeras av Stockholm Stad. Webbplatsen ska visa information om festivalens artister, scener, och spelschema på ett användarvänligt och estetiskt tilltalande sätt. 

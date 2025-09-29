@@ -1,66 +1,53 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="sv">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Musikfestival hemsidan</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Stockholm Musikfestival</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header id="header">
-        <nav class="navbar">
-            <div class="logo">Stockholm Musikfestival</div>
-            <ul class="nav-links">
-                <li><a href="#home">Hem</a></li>
-                <li><a href="#artists">Artister</a></li>
-                <li><a href="#schedule">Spelschema</a></li>
-                <li><a href="#stages">Scener</a></li>
-            </ul>
-        </nav>
-        <div class="greeting">
-            <h1>Välkommen till Musikfestivalen</h1>
-            <p>Stockholms största musikupplevelse!</p>
-        </div>
-    </header>
+  <header>
+    <nav class="navbar">
+      <div class="logo">Stockholm Musikfestival</div>
+      <ul class="nav-links">
+        <li><a href="#home">Hem</a></li>
+        <li><a href="#artists">Artister & Schema</a></li>
+        <li><a href="#about">Om</a></li>
+      </ul>
+    </nav>
+    <div class="hero" id="home">
+      <h1>Välkommen till Musikfestivalen</h1>
+      <p>Stockholms största musikupplevelse!</p>
+      <a href="#artists" class="cta-btn">Se artister</a>
+    </div>
+  </header>
 
-    <main>
-        <section>
-            <div class="container">
-                <h2>Om Festivalen</h2>
-                <p>Stockholm Musikfestivalen är ett årligt evenemang i Stockholm med fantastiska artister och minnesvärda uppträdanden.</p>
-            </div>
-        </section>
+  <main>
+    <section id="about" class="section-light">
+      <div class="container">
+        <h2>Om Festivalen</h2>
+        <p>
+          Stockholm Musikfestivalen är ett årligt evenemang med fantastiska artister,
+          unika scener och ett schema fyllt av musikupplevelser.
+        </p>
+      </div>
+    </section>
 
-        <section >
-            <div class="container">
-                <h2>Artister</h2>
-                <p>Utforska våra fantastiska artister som kommer att uppträda under festivalen.</p>
-                <div id="artists-container" class="grid-container">
-                </div>
-            </div>
-        </section>
+    <section id="artists">
+      <div class="container">
+        <h2>Artister & Spelschema</h2>
+        <p>Här hittar du alla artister, datum, scener och genrer.</p>
+        <div id="artists-container" class="artists-grid"></div>
+      </div>
+    </section>
+  </main>
 
-        <section>
-            <div class="container">
-                <h2>Spelschema</h2>
-                <p>Håll koll på när och var dina favoritartister uppträder.</p>
-               
-            </div>
-        </section>
-
-        <section>
-            <div class="container">
-                <h2>Scener</h2>
-                <p>Upptäck våra fantastiska scener som erbjuder unika upplevelser.</p>
-            </div>
-        </section>
-    </main>
-
-    <footer>
-        <div class="container">
-            <p>&copy; 2025 Stockholm Musikfestival. Alla rättigheter förbehållna.</p>
-        </div>
-    </footer>
-   <script src="script.js"></script> 
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Stockholm Musikfestival. Alla rättigheter förbehållna.</p>
+    </div>
+  </footer>
+  <script src="script.js"></script>
 </body>
 </html>
